@@ -5,7 +5,7 @@
 		<format property="time" pattern="yyyyMMddhhmm" />
 	</tstamp>
 	<!-- 需要改成自己本地的 Jmeter 目录-->
-	<property name="jmeter.home" value="${JMETER}" />
+	<property name="jmeter.home" value="/opt/jmeter-3.1" />
 	<!-- jmeter生成jtl、html格式的结果报告的路径-->
 	<property name="jmeter.result.jtl.dir" value="./report/jtl" />
 	<property name="jmeter.result.html.dir" value="./report/html" />
